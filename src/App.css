@@ -1,7 +1,6 @@
-body {font-family: 'Roboto', sans-serif;}
-
 /* The Modal (background) */
 .GNP-modal {
+  font-family: 'Roboto', sans-serif;
   display: none; 
   position: fixed; 
   z-index: 1;
@@ -21,6 +20,7 @@ body {font-family: 'Roboto', sans-serif;}
 
 /* Modal Content */
 .GNP-modal-content {
+  font-family: 'Roboto', sans-serif;
   position: fixed;
   bottom: 0;
   background-color: #fefefe;
@@ -32,7 +32,10 @@ body {font-family: 'Roboto', sans-serif;}
   animation-duration: 0.4s
 }
 
-.GNP-modal-body {padding: 2px 16px;}
+.GNP-modal-body {
+  font-family: 'Roboto', sans-serif;
+  padding: 2px 16px;
+}
 
 /* Add Animation */
 @-webkit-keyframes slideIn {
@@ -61,18 +64,21 @@ body {font-family: 'Roboto', sans-serif;}
 .input-field input[type]:focus:not([readonly]),
 .input-field textarea:not([readonly]),
 .input-field textarea:focus:not([readonly]) {
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid #AAC3EE;
   box-shadow: 0 1px 0 0 #AAC3EE;
 
 }
 
 .input-field label {
+  font-family: 'Roboto', sans-serif;
   color: #0C2040 ;
   font-size: 16px;
   line-height: 24px;
 }
 
 label[for=inputelement]:active {
+  font-family: 'Roboto', sans-serif;
   /*styles here*/
   color: #647085 ;
   font-size: 12px;
@@ -81,6 +87,7 @@ label[for=inputelement]:active {
 
 /* label focus color */
 .input-field input:focus + label {
+  font-family: 'Roboto', sans-serif;
   mix-blend-mode: normal;
   color: #647085 !important;
 }
@@ -90,50 +97,58 @@ label[for=inputelement]:active {
 
    /* label underline focus color */
 .input-field input:focus{
-
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid  #AAC3EE !important;
   box-shadow: 0 1px 0 0  #AAC3EE !important;
 }
 
 input.select-dropdown{
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid  #AAC3EE !important;
   box-shadow: 0 1px 0 0  #AAC3EE !important;
 }
 
 .dropdown-content li>span{
+  font-family: 'Roboto', sans-serif;
   color: #0C2040
 }
 
 /* valid color */
 .input-field input[type=text].valid {
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid #AAC3EE !important;
   box-shadow: 0 1px 0 0 #AAC3EE !important;
 }
 /* invalid color */
 .input-field input[type=text].invalid {
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid #AAC3EE !important;
   box-shadow: 0 1px 0 0 #AAC3EE !important;
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
+  font-family: 'Roboto', sans-serif;
   color: #AAC3EE;
 }
 
 /* Buttons */
 /* Button complete */
 .btn-orange {
+  font-family: 'Roboto', sans-serif;
   background-color:#FF6B0B;
   box-shadow: none;
   border-radius: 4px;
 }
 
 .btn-orange:hover {
+  font-family: 'Roboto', sans-serif;
   background-color:#ff6d0bd7;
   box-shadow: none;
   border-radius: 4px;
 }
 
 .btn-orange:active {
+  font-family: 'Roboto', sans-serif;
   background-color:#d65e0e;
   box-shadow: none;
   border-radius: 4px;
@@ -141,6 +156,7 @@ input.select-dropdown{
 
 /* Button outlined */
 .btn-orange-outlined {
+  font-family: 'Roboto', sans-serif;
   border: 1px solid #FF6B0B;
   background-color: #ffffff;
   color: #FF6B0B;
@@ -149,6 +165,7 @@ input.select-dropdown{
 }
 
 .btn-orange-outlined:hover {
+  font-family: 'Roboto', sans-serif;
   border: 1px solid #FF6B0B;
   background-color: rgba(255, 109, 11, 0.329);
   color: #FF6B0B;
@@ -162,6 +179,7 @@ input.select-dropdown{
 }
 
 .label-single-color{
+  font-family: 'Roboto', sans-serif;
   color: #647085 !important;
   font-size: 12px !important;
   line-height: 16px !important;

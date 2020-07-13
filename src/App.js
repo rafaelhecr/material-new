@@ -30,7 +30,8 @@ class App extends React.Component{
       let monthSelect = document.querySelector('#month')
       let yearSelect = document.querySelector('#year')
       let singleSelect = document.querySelector('#select')
-      let datePicker = document.querySelector(".datepicker")
+      let pickerDateDemo = document.querySelector('#fecha1')
+      // let datePicker = document.querySelector(".datepicker")
       let optionsDatePicker = {
         format: 'dd mmmm yyyy',
         autoClose: true,
@@ -47,7 +48,8 @@ class App extends React.Component{
       M.FormSelect.init(monthSelect);
       M.FormSelect.init(yearSelect);
       M.FormSelect.init(singleSelect);
-      M.Datepicker.init(datePicker, optionsDatePicker);
+      // M.Datepicker.init(datePicker, optionsDatePicker);
+      M.Datepicker.init(pickerDateDemo, optionsDatePicker);
     }
   }
 
@@ -152,7 +154,7 @@ class App extends React.Component{
           {/* Ejemplo de un date picker */}
           <div className="col s12">
             <div className="input-field">
-              <input type="text" className="datepicker" />
+              <input type="text" className="datepicker" id="fecha1" />
               <label htmlFor="user_name">Fecha</label>
             </div>
           </div>
