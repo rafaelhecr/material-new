@@ -200,7 +200,7 @@ input.select-dropdown{
 
 .datepicker-done,
 .datepicker-cancel,
-.select-dropdown li>span,
+/* .select-dropdown li>span, */
 .is-today {
   color: #FC6C25 !important;
 }
